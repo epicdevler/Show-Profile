@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/detailImageTitle"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailImage"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Image Title"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/detailImageBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailImageTitle"
+        android:layout_marginTop="20dp"
+        android:text="Item Bio Here"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/detailsDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailImageBio"
+        android:layout_centerHorizontal="true"
+        android:text="@string/doneButton"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
